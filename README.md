@@ -4,8 +4,8 @@
 ## Contact:         aftabajk@gmail.com
 
 # **``Introduction``**:
-The World Bank is a global institution. By providing loans to the governments of its members, it helps them develop their economies and raise the living standards of their citizens, which is one of its major functions. The International Development Association (IDA) was founded in 1960 to eradicate poverty through the provision of grants and credits, or loans with zero to low interest rates. The programs' objectives are to raise economic growth, lessen inequality, and enhance people's quality of life.
-I will examine the World Bank financial data, which includes details on the borrowing nations, in my capacity as a data analyst I also decided to compare the funding and repayments between Pakistan, India, and  Bangladesh.
+The World Bank is a global institution. By providing loans to the governments of its members, it helps them develop their economies and raise the living standards of their citizens, which is one of its major functions. The **International Development Association (IDA)** was founded in **1960** to eradicate poverty through the provision of grants and credits, or loans with zero to low interest rates. The programs' objectives are to raise economic growth, lessen inequality, and enhance people's quality of life.
+I will examine the World Bank financial data, which includes details on the borrowing nations, in my capacity as a data analyst I also decided to compare the funding and repayments between **Pakistan**, **India**, and  **Bangladesh**.
 ![world_bank](./Pics/world_bank.jpg)
 
 My objective is to give the World Bank a thorough picture of the nations that are receiving IDA loans and to support them in making decisions that will improve their capacity to empower these nations in various ways.
@@ -20,16 +20,15 @@ Pakistan, Bangladesh, and India have faced economic challenges and have large po
 
 As a data analyst, exploring World Bank loans to Pakistan, India, and Bangladesh can provide valuable insights to help reduce the debt burden on these countries. My goal is to find valuable insights into how these countries can minimize their borrowing from the World Bank and how the World Bank should set up debt relief mechanisms for these countries.
 
-# **``Key Findings:``**
-•	Show all transactions from Pakistan, India, and Bangladesh and the status of their loans.
-•	How many total transactions were made in each of the three countries' interests?
-•	Which country has the most loans?
-•	What is the maximum amount owed to the IDA and how do India, Pakistan, and Bangladesh compare to these amounts?
-•	What were the most expensive projects in Pakistan and Bangladesh with the highest original principle amount?	
-•	What is the average amount Pakistan pays back to IDA?
+# **``Key Findings``**
+- Show all transactions from Pakistan, India, and Bangladesh and the status of their loans.
+- How many total transactions were made in each of the three countries' interests?
+- Which country has the most loans?
+- What is the maximum amount owed to the IDA and how do India, Pakistan, and Bangladesh compare to these amounts?
+- What were the most expensive projects in Pakistan and Bangladesh with the highest original principle amount?	
+- What is the average amount Pakistan pays back to IDA?
 
-
-### The Data 
+### The Data
 For this project, I am using a dataset from The World Bank. The Link for accessing this data is The World Bank Dataset All the data presented is available to everybody to analyze, visualize, and share with others. This is public data that analysts can use to explore how different borrowing nations are taking the loans. But Remember also to Read the Terms of Use associated with the use of data.
 ### Description of Data:
 The data used for this project is in CSV file format and it is too large to open in Excel. First I download it and import it into Jupiter notebook using Pandas library to get a holistic sense of all the data. It has 1,304,781 rows and 30 columns. The data is regularly updated in real-time on a single transaction basis, ensuring there is no chance of duplicated information."
@@ -52,7 +51,7 @@ Since this is a huge dataset I will be using Python to process and analyze the d
 - Project ID
 
 ## Data Cleaning:
-The dataset has a large number of columns, according to the data dictionary. This dataset contains historical snapshots of the IDA Statement of Credits and Grants including the latest available snapshot. The World Bank complies with all sanctions applicable to World Bank transactions. The chance of duplicated data is almost zero because IDA provides loans and grants to its member countries through proper channels. Upon examining the data set, I discovered that some columns were not necessary for the analysis I had in mind. I removed these columns' names as 'End of Period', 'Credit Number', 'Country Code', 'Currency of Commitment', 'Project ID',' Exchange Adjustment (US$)', "Borrower's Obligation (US$)",' Sold 3rd Party (US$)',' Repaid 3rd Party (US$)','Due 3rd Party (US$)', 'Credits Held (US$)','First Repayment Date', 'Last Repayment Date', 'Agreement Signing Date', 'Board Approval Date', 'Effective Date (Most Recent)',' Closed Date (Most Recent)', and 'Last Disbursement Date'. The bank carefully updates the data, ensuring there is no risk of data duplication.
+The dataset has a large number of columns, according to the data dictionary. This dataset contains historical snapshots of the IDA Statement of Credits and Grants including the latest available snapshot. The World Bank complies with all sanctions applicable to World Bank transactions. The chance of duplicated data is almost zero because IDA provides loans and grants to its member countries through proper channels. Upon examining the data set, I discovered that some columns were not necessary for the analysis I had in mind. I removed these columns names as **'End of Period'**, **'Credit Number'**, **'Country Code'**, **'Currency of Commitment'**, **'Project ID'**, **'Exchange Adjustment (US$)'**, **"Borrower's Obligation (US$)"**, **'Sold 3rd Party (US$)',** **'Repaid 3rd Party (US$)'**, **'Due 3rd Party (US$)'**, **'Credits Held (US$)'**, **'First Repayment Date'**, **'Last Repayment Date'**, **'Agreement Signing Date'**, **'Board Approval Date'**, **'Effective Date (Most Recent)'**,' **Closed Date (Most Recent)'**, and **'Last Disbursement Date'**. The bank carefully updates the data, ensuring there is no risk of data duplication.
 
 # **``Analysis``**
 I started the analysis by writing a code snippet to find how many total transactions have been made by the World Bank so far. By using COUNT we can see the total number of successful transactions are 1,304,779. To analyze how different countries are obtaining and repaying loans from the International Development Association (IDA) over time, I explored the data according to the different parameters.
@@ -109,7 +108,7 @@ The calculated percentages are as follows:
 Pakistan: 21.98%
 India: 44.91%
 Bangladesh: 23.39%
-Based on these findings, we hypothesize that Pakistan's lower repayment rate to the IDA could be attributed to several factors, i.e. (a) Pakistan may be experiencing slower economic growth, higher inflation, or other macroeconomic challenges that impact its ability to make repayments. (b) Government budget priorities and fiscal policies might prioritize other expenditures over international loan repayments. (3) Political instability or frequent changes in government could affect the consistency and effectiveness of financial policies related to debt repayment. Understanding these underlying conditions is crucial for developing strategies to improve Pakistan's loan repayment performance to the IDA.
+Based on these findings, we hypothesize that Pakistan's lower repayment rate to the IDA could be attributed to several factors, i.e. **(a) Pakistan may be experiencing slower economic growth, higher inflation, or other macroeconomic challenges that impact its ability to make repayments**. **(b) Government budget priorities and fiscal policies might prioritize other expenditures over international loan repayments**. **(3) Political instability or frequent changes in government could affect the consistency and effectiveness of financial policies related to debt repayment**. Understanding these underlying conditions is crucial for developing strategies to improve Pakistan's loan repayment performance to the IDA.
 
 ### General Notes: 
 1.	The methodology used to derive these insights such as ‘Top 10 borrowing countries’, ‘Pakistan's top 5 projects with the highest loan amount’, ‘India's top 5 projects with the highest loan amount’ ‘Bangladesh's top 5 projects with the highest loan amount’ was to systematically sum the 'Disbursed Amount' and 'Undisbursed Amount' values for each relevant grouping (country, project) to determine the total loan commitments. This approach allowed for a comprehensive assessment of the lending portfolio and the identification of the most significant borrowing patterns and project-level financing.
@@ -142,6 +141,7 @@ By integrating the dashboard into the decision-making process, the stakeholders 
 The data analysis underscores the need for key Asian borrowing countries, such as Pakistan, India, and Bangladesh, to engage in constructive dialogue and implement targeted policy reforms to address their over-reliance on World Bank credits and grants. A collaborative and strategic approach between these countries and the World Bank is essential to fulfilling the institution's mission of supporting global prosperity and reducing poverty.
 
 Thank you very much for reading my project.
+
 Aftab Ahmad
 
 ## Resources
