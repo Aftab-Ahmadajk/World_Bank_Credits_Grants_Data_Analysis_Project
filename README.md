@@ -13,10 +13,10 @@ My objective is to give the World Bank a thorough picture of the nations that ar
 # Scenario
 Pakistan, Bangladesh, and India have faced economic challenges and have large populations living below the poverty line, it's important to note that these countries have diverse economies and varying levels of development. Taking loans from international financial institutions like the World Bank is a common practice for both developing and developed countries. Here are a few reasons why these countries might take loans:
 
-•	Infrastructure Development: Developing countries often require funds to invest in infrastructure projects such as roads, bridges, ports, and power plants. 
-•	Social Development: Loans can be used to finance social development programs such as education, healthcare, and poverty alleviation. These countries may seek financial assistance to improve their social indicators and provide better services to their citizens.
-•	Budgetary Support: Loans from international institutions can help countries bridge budget deficits and maintain macroeconomic stability. These loans provide temporary relief by filling gaps in revenue and expenditure, especially during economic downturns or crises.
-•	Technological Advancement: Access to funds can facilitate the adoption and implementation of advanced technologies, which can enhance productivity, industrial growth, and competitiveness in the global market.
+- Infrastructure Development: Developing countries often require funds to invest in infrastructure projects such as roads, bridges, ports, and power plants. 
+-	Social Development: Loans can be used to finance social development programs such as education, healthcare, and poverty alleviation. These countries may seek financial assistance to improve their social indicators and provide better services to their citizens.
+-	Budgetary Support: Loans from international institutions can help countries bridge budget deficits and maintain macroeconomic stability. These loans provide temporary relief by filling gaps in revenue and expenditure, especially during economic downturns or crises.
+-	Technological Advancement: Access to funds can facilitate the adoption and implementation of advanced technologies, which can enhance productivity, industrial growth, and competitiveness in the global market.
 
 As a data analyst, exploring World Bank loans to Pakistan, India, and Bangladesh can provide valuable insights to help reduce the debt burden on these countries. My goal is to find valuable insights into how these countries can minimize their borrowing from the World Bank and how the World Bank should set up debt relief mechanisms for these countries.
 
@@ -29,26 +29,27 @@ As a data analyst, exploring World Bank loans to Pakistan, India, and Bangladesh
 •	What is the average amount Pakistan pays back to IDA?
 
 
-### The Data ###
+### The Data 
 For this project, I am using a dataset from The World Bank. The Link for accessing this data is The World Bank Dataset All the data presented is available to everybody to analyze, visualize, and share with others. This is public data that analysts can use to explore how different borrowing nations are taking the loans. But Remember also to Read the Terms of Use associated with the use of data.
-### Description of Data:###
+### Description of Data:
 The data used for this project is in CSV file format and it is too large to open in Excel. First I download it and import it into Jupiter notebook using Pandas library to get a holistic sense of all the data. It has 1,304,781 rows and 30 columns. The data is regularly updated in real-time on a single transaction basis, ensuring there is no chance of duplicated information."
 
 ### Data Exploration:
 Since this is a huge dataset I will be using Python to process and analyze the data. Python's extensive libraries, including Pandas, NumPy, Matplotlib, and Seaborn, offer robust capabilities for handling big data.  First, I explored this dataset and I discovered that it contains data regarding several nations that have obtained loans from the World Bank via the IDA International Development Association. There are numerous columns, as the data dictionary reveals, some of which are:
-•	Country
-•	Region
-•	Service Charge Rate
-•	Repaid to IDA
-•	Due to IDA
-•	Credit Status
-•	Cancelled
-•	Disbursed
-•	Undisbursed Amount
-•	Country Code
-•	Borrower
-•	Project Name
-•	Project ID
+
+- Country
+- Region
+- Service Charge Rate
+- Repaid to IDA
+- Due to IDA
+- Credit Status
+- Cancelled
+- Disbursed
+- Undisbursed Amount
+- Country Code
+- Borrower
+- Project Name
+- Project ID
 
 ## Data Cleaning:
 The dataset has a large number of columns, according to the data dictionary. This dataset contains historical snapshots of the IDA Statement of Credits and Grants including the latest available snapshot. The World Bank complies with all sanctions applicable to World Bank transactions. The chance of duplicated data is almost zero because IDA provides loans and grants to its member countries through proper channels. Upon examining the data set, I discovered that some columns were not necessary for the analysis I had in mind. I removed these columns' names as 'End of Period', 'Credit Number', 'Country Code', 'Currency of Commitment', 'Project ID',' Exchange Adjustment (US$)', "Borrower's Obligation (US$)",' Sold 3rd Party (US$)',' Repaid 3rd Party (US$)','Due 3rd Party (US$)', 'Credits Held (US$)','First Repayment Date', 'Last Repayment Date', 'Agreement Signing Date', 'Board Approval Date', 'Effective Date (Most Recent)',' Closed Date (Most Recent)', and 'Last Disbursement Date'. The bank carefully updates the data, ensuring there is no risk of data duplication.
@@ -68,7 +69,7 @@ India is the country with the highest amount of loans owed to IDA i.e $ 3683.7 b
 
 ## Top 50 Projects of World Bank for Pakistan:
 In the current situation, the economy of Pakistan is facing a critical situation as the debt is increasing day by day. More loans are needed to pay the interest on previous loans. To check IDA's top 50 projects for Pakistan I wrote a code snippet which showed the following output.
-![pic-03](./Pics/pic-03.png)
+![pic-03](./Pics/pic-03.jpg)
 We can see Pakistan is actively addressing its pressing infrastructure, energy, and water management challenges, it is also important to invest in the long-term development of its human capital through education and technology initiatives. A balanced approach to development can help the country achieve more sustainable and inclusive growth.
 
 ## Pakistan’s Top 5 Projects With The Highest Loan Amount:
@@ -117,11 +118,11 @@ Based on these findings, we hypothesize that Pakistan's lower repayment rate to 
 4.	The disbursed amount less the repaid amount may not equal the borrower’s obligation due to exchange rate movements.
 
 # **``Summary of Analysis``**
--	As I observed IDA has a huge number of loans lent out to its member country. IDA lent out money to 138 counties. One of the biggest loan-taking countries was India. India has taken a loan of approximately $7,114.9 million 
--	The top 5 countries that the IDA has lent out the most money to are India, Bangladesh, Pakistan, Ethiopia, and Vietnam.
--	As I analyzed the top 5 countries that paid the most to IDA are India, Bangladesh, Pakistan, Vietnam, and Nigeria. Ethiopia has borrowed much more than Nigeria but paid less to IDA.
--	As I calculate the percentage loan repayment to the IDA for India i.e. 44.91% Bangladesh i.e. 23.39% and Pakistan i.e 21.98 %. It might be possible India may achieve favorable attention from IDA for loans in the future because of its timely repayment behavior to IDA. 
--	I analyzed that India and Bangladesh are investing in the education sector which could be the best investment while Pakistan is borrowing most of the money to meet its energy crisis and other development projects.
+- As I observed IDA has a huge number of loans lent out to its member country. IDA lent out money to 138 counties. One of the biggest loan-taking countries was India. India has taken a loan of approximately $7,114.9 million 
+- The top 5 countries that the IDA has lent out the most money to are India, Bangladesh, Pakistan, Ethiopia, and Vietnam.
+- As I analyzed the top 5 countries that paid the most to IDA are India, Bangladesh, Pakistan, Vietnam, and Nigeria. Ethiopia has borrowed much more than Nigeria but paid less to IDA.
+- As I calculate the percentage loan repayment to the IDA for India i.e. 44.91% Bangladesh i.e. 23.39% and Pakistan i.e 21.98 %. It might be possible India may achieve favorable attention from IDA for loans in the future because of its timely repayment behavior to IDA. 
+- I analyzed that India and Bangladesh are investing in the education sector which could be the best investment while Pakistan is borrowing most of the money to meet its energy crisis and other development projects.
 
 # **``Share``**
 Through a rigorous data analysis process, I have extracted valuable insights that align with the stakeholder requirements. To effectively communicate these insights, I have developed a comprehensive dashboard that presents the data in a unified and visually compelling manner.
@@ -143,14 +144,11 @@ The data analysis underscores the need for key Asian borrowing countries, such a
 Thank you very much for reading my project.
 
 ## Resources
-Please find the Jupyter Notebook file, Data dictionery file and PowerBI Dashboard available in my GitHub repository.
+Please find the Jupyter Notebook file, Data dictionary file and PowerBI Dashboard available in my GitHub repository.
 For the dashboard, you can also find it on my Tableau Public profile.
 I would greatly appreciate your feedback and any suggestions you may have regarding this portfolio project work. Your input is valuable to me in further improving the analysis. Please feel free to share your thoughts by emailing me at aftabajk@gmail.com 
 
-Thank You,
 Aftab Ahmad
-
-
 
  #exploratory_data_analysis  #world_bank_credits_and_loan_data_analysis #ida_loan_data 
 
