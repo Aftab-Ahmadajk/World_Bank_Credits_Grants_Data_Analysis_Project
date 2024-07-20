@@ -6,6 +6,7 @@
 # **``Introduction``**:
 The World Bank is a global institution. By providing loans to the governments of its members, it helps them develop their economies and raise the living standards of their citizens, which is one of its major functions. The **International Development Association (IDA)** was founded in **1960** to eradicate poverty through the provision of grants and credits, or loans with zero to low interest rates. The programs' objectives are to raise economic growth, lessen inequality, and enhance people's quality of life.
 I will examine the World Bank financial data, which includes details on the borrowing nations, in my capacity as a data analyst I also decided to compare the funding and repayments between **Pakistan**, **India**, and  **Bangladesh**.
+
 ![world_bank](./Pics/world_bank.jpg)
 
 My objective is to give the World Bank a thorough picture of the nations that are receiving IDA loans and to support them in making decisions that will improve their capacity to empower these nations in various ways.
