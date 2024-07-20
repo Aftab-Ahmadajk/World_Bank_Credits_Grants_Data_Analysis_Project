@@ -112,7 +112,7 @@ Bangladesh: 23.39%
 Based on these findings, we hypothesize that Pakistan's lower repayment rate to the IDA could be attributed to several factors, i.e. (a) Pakistan may be experiencing slower economic growth, higher inflation, or other macroeconomic challenges that impact its ability to make repayments. (b) Government budget priorities and fiscal policies might prioritize other expenditures over international loan repayments. (3) Political instability or frequent changes in government could affect the consistency and effectiveness of financial policies related to debt repayment. Understanding these underlying conditions is crucial for developing strategies to improve Pakistan's loan repayment performance to the IDA.
 
 ### General Notes: 
-1.	1.	The methodology used to derive these insights such as ‘Top 10 borrowing countries’, ‘Pakistan's top 5 projects with the highest loan amount’, ‘India's top 5 projects with the highest loan amount’ ‘Bangladesh's top 5 projects with the highest loan amount’ was to systematically sum the 'Disbursed Amount' and 'Undisbursed Amount' values for each relevant grouping (country, project) to determine the total loan commitments. This approach allowed for a comprehensive assessment of the lending portfolio and the identification of the most significant borrowing patterns and project-level financing.
+1.	The methodology used to derive these insights such as ‘Top 10 borrowing countries’, ‘Pakistan's top 5 projects with the highest loan amount’, ‘India's top 5 projects with the highest loan amount’ ‘Bangladesh's top 5 projects with the highest loan amount’ was to systematically sum the 'Disbursed Amount' and 'Undisbursed Amount' values for each relevant grouping (country, project) to determine the total loan commitments. This approach allowed for a comprehensive assessment of the lending portfolio and the identification of the most significant borrowing patterns and project-level financing.
 2.	The percentage of loan repayments to the IDA was calculated by dividing the aggregate amount of the "Repaid to IDA (US$)" column by the "Disbursed Amount (US$)" column and multiplying the result by 100. 
 3.	Original principal amount less canceled amount may not equal disbursed amount plus undisbursed amount due to exchange rate movements. 
 4.	The disbursed amount less the repaid amount may not equal the borrower’s obligation due to exchange rate movements.
@@ -142,13 +142,12 @@ By integrating the dashboard into the decision-making process, the stakeholders 
 The data analysis underscores the need for key Asian borrowing countries, such as Pakistan, India, and Bangladesh, to engage in constructive dialogue and implement targeted policy reforms to address their over-reliance on World Bank credits and grants. A collaborative and strategic approach between these countries and the World Bank is essential to fulfilling the institution's mission of supporting global prosperity and reducing poverty.
 
 Thank you very much for reading my project.
+Aftab Ahmad
 
 ## Resources
 Please find the Jupyter Notebook file, Data dictionary file and PowerBI Dashboard available in my GitHub repository.
 For the dashboard, you can also find it on my Tableau Public profile.
 I would greatly appreciate your feedback and any suggestions you may have regarding this portfolio project work. Your input is valuable to me in further improving the analysis. Please feel free to share your thoughts by emailing me at aftabajk@gmail.com 
-
-Aftab Ahmad
 
  #exploratory_data_analysis  #world_bank_credits_and_loan_data_analysis #ida_loan_data 
 
