@@ -1,4 +1,4 @@
-# **International Development Association (IDA) Data Analysis Project**
+# **World Bank (International Development Association) Credits and Grants Data Analysis Project**
 ## Author:          Aftab Ahmad 
 ## Date:            20 July, 2024
 ## Contact:         aftabajk@gmail.com
