@@ -60,7 +60,7 @@ I started the analysis by writing a code snippet to find how many total transact
 ## Top 10 Borrowing Countries from IDA:
 To see which countries are getting loans from IDA, I wrote a piece of code to see how much Loan amount has been received by each country. I used the GROUP BY function to display the top 10 county’s transactions. 
 ![pic-01](./Pics/pic-01.png)
-A preliminary analysis of the World Bank data is surprising to see that these countries (India, Bangladesh, Pakistan) are among the top borrowers. The above plot is showing that India has received more loans and credits than any other country with  $ 6,004.22 billion followed by Bangladesh $ 3,058.82 billion and Pakistan $ 2,634..38 billion.
+A preliminary analysis of the World Bank data is surprising to see that these countries (India, Bangladesh, Pakistan) are among the top borrowers. The above plot is showing that India has received more loans and credits than any other country with  $ 6,004.22 billion followed by Bangladesh $ 3,058.8 billion and Pakistan $ 2,634.38 billion.
 
 ## Top 5 Countries With Outstanding Loans to IDA:
 After developing an understanding of data, I decided to look at India, Pakistan, and Bangladesh in more detail.  I wanted to find out the top 5 countries that have the largest number of loans owed to IDA, I wrote a code snippet that showed the result.
@@ -103,7 +103,7 @@ The results of Bangladesh were similar to those of India and Pakistan. Among the
 
 ## Average Loan Repayments to the IDA:
 I analyzed the percentage of loan repayments to the International Development Association (IDA) for Pakistan, India, and Bangladesh by writing specific code snippets for each country.
-![pic-10](./Pics/pic-10.png)
+![pic-10](./Pics/pic-10.jpg)
 The calculated percentages are as follows:
 Pakistan: 20.85%
 India: 41.83%
@@ -126,7 +126,7 @@ Based on these findings, we hypothesize that Pakistan's lower repayment rate to 
 # **``Share``**
 Through a rigorous data analysis process, I have extracted valuable insights that align with the stakeholder requirements. To effectively communicate these insights, I have developed a comprehensive dashboard that presents the data in a unified and visually compelling manner.
 By integrating the dashboard into the decision-making process, the stakeholders can confidently navigate the data, uncover hidden opportunities, and address pressing challenges.
-![WB_Dashbaord_Final](./Pics/WB_Dashbaord_Final.jpg)
+![WB_Dashboard_Final](./Pics/WB_Dashboard_Final.jpg)
 
 # **``Recommendations``**
 1.	My recommendation to the World Bank is to provide interest rate exemptions on debts for countries facing frequent natural calamities, such as Pakistan. Natural disasters can have a significant economic impact on countries, making it difficult for them to service their debts.
