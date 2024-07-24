@@ -32,7 +32,7 @@ As a data analyst, exploring World Bank loans to Pakistan, India, and Bangladesh
 ### The Data
 For this project, I am using a dataset from The World Bank. The Link for accessing this data is The World Bank Dataset All the data presented is available to everybody to analyze, visualize, and share with others. This is public data that analysts can use to explore how different borrowing nations are taking the loans. But Remember also to Read the Terms of Use associated with the use of data.
 ### Description of Data:
-The data used for this project is in CSV file format and it is too large to open in Excel. First I download it and import it into Jupiter notebook using Pandas library to get a holistic sense of all the data. It has 1,304,781 rows and 30 columns. The data is regularly updated in real-time on a single transaction basis, ensuring there is no chance of duplicated information."
+The data used for this project is in CSV file format and it is too large to open in Excel. First I download it and import it into Jupiter notebook using Pandas library to get a holistic sense of all the data. It has 991,848 rows and 30 columns. The data is regularly updated in real-time on a single transaction basis, ensuring there is no chance of duplicated information."
 
 ### Data Exploration:
 Since this is a huge dataset I will be using Python to process and analyze the data. Python's extensive libraries, including Pandas, NumPy, Matplotlib, and Seaborn, offer robust capabilities for handling big data.  First, I explored this dataset and I discovered that it contains data regarding several nations that have obtained loans from the World Bank via the IDA International Development Association. There are numerous columns, as the data dictionary reveals, some of which are:
@@ -60,12 +60,12 @@ I started the analysis by writing a code snippet to find how many total transact
 ## Top 10 Borrowing Countries from IDA:
 To see which countries are getting loans from IDA, I wrote a piece of code to see how much Loan amount has been received by each country. I used the GROUP BY function to display the top 10 county’s transactions. 
 ![pic-01](./Pics/pic-01.png)
-A preliminary analysis of the World Bank data is surprising to see that these countries (India, Bangladesh, Pakistan) are among the top borrowers. The above plot is showing that India has received more loans and credits than any other country with  $7,114.9 billion followed by Bangladesh $ 3,898.6 billion and Pakistan $ 3,342.9 billion.
+A preliminary analysis of the World Bank data is surprising to see that these countries (India, Bangladesh, Pakistan) are among the top borrowers. The above plot is showing that India has received more loans and credits than any other country with  $ 6,004.22 billion followed by Bangladesh $ 3,058.82 billion and Pakistan $ 2,634..38 billion.
 
 ## Top 5 Countries With Outstanding Loans to IDA:
 After developing an understanding of data, I decided to look at India, Pakistan, and Bangladesh in more detail.  I wanted to find out the top 5 countries that have the largest number of loans owed to IDA, I wrote a code snippet that showed the result.
 ![pic-02](./Pics/pic-02.png)
-India is the country with the highest amount of loans owed to IDA i.e $ 3683.7 billion followed by Bangladesh, Pakistan, Vietnam, and Nigeria. All these countries have been continuously borrowing loans from IDA for completing different projects.
+India is the country with the highest amount of loans owed to IDA i.e $ 3251.3 billion followed by Bangladesh, Pakistan, Vietnam, and Nigeria. All these countries have been continuously borrowing loans from IDA for completing different projects.
 
 ## Top 50 Projects of World Bank for Pakistan:
 In the current situation, the economy of Pakistan is facing a critical situation as the debt is increasing day by day. More loans are needed to pay the interest on previous loans. To check IDA's top 50 projects for Pakistan I wrote a code snippet which showed the following output.
@@ -75,7 +75,7 @@ We can see Pakistan is actively addressing its pressing infrastructure, energy, 
 ## Pakistan’s Top 5 Projects With The Highest Loan Amount:
 An in-depth analysis of Pakistan's debt, which ranks third among borrowers, I wrote a piece of code that shows Pakistan's debt. It showed me the following results.
 ![pic-04](./Pics/pic-04.png)
-Pakistan obtained a substantial amount of loans for the following projects: Pakistan Earthquake ERC worth $ 115.20 billion; SAC II (Structural Adjustment Credit) worth $80.6 billion; Power Sector Reform DPC, worth $ 73.1 billion; Pakistan PRSC I (Pakistan's PRSCs are one tranche programmatic operations designed to support the Government's medium-term program) worth $ 71.6 billion; and Second Poverty Alleviation Fund Project, worth $ 69.2 billion.
+Pakistan obtained a substantial amount of loans for the following projects: Pakistan Earthquake ERC worth $ 97.7 billion; SAC II (Structural Adjustment Credit) worth $ 68.4 billion;  Pakistan PRSC I (Pakistan's PRSCs are one tranche programmatic operations designed to support the Government's medium-term program) worth $ 60.7 billion; Power Sector Reform DPC, worth $ 58.6 billion;  and Second Poverty Alleviation Fund Project, worth $ 55.6 billion.
 
 ## Top 5 Projects of Pakistan with Loan Repaid to IDA:
 Then I checked the top 5 projects for which Pakistan has been paid back to IDA. I wrote the code snippet that showed me the following result.
@@ -85,7 +85,7 @@ The loan for the Pakistan Earthquake Emergency Recovery Credit (ERC) has not yet
 ## India’s Top 5 Projects with the Highest Loan Amount:
 Next, I analyzed the top 5 projects in India. To get the result I wrote the code snippet which showed me the results below.
 ![pic-06](./Pics/pic-06.png)
-I looked at the top five projects in India that required a significant amount of borrowing; they are called Elementary Education (SSA II), which cost $208.3 billion, PMGSY Rural Roads Project, which cost $139.4 billion, SSA III (Sarva Siksha Abhiyan), which cost $112.9 billion, Social Safety Nets, which cost $79.7 billion, and Elementary Education Project (Ssa), which cost $77.2 billion.
+I looked at the top five projects in India that required a significant amount of borrowing; they are called Elementary Education (SSA II), which cost $176.7 billion, PMGSY Rural Roads Project, which cost $118.9 billion, SSA III (Sarva Siksha Abhiyan), which cost $ 90.6 billion, Social Safety Nets, which cost $ 67.6 billion, and Elementary Education Project (Ssa), which cost $ 65.5 billion.
 
 ## Top 5 Projects of India with Loan Repaid to IDA:
 After checking the top 5 projects I checked the top 5 projects for which India has been paid back to IDA. I wrote the code snippet that showed me the following result.
@@ -93,11 +93,10 @@ After checking the top 5 projects I checked the top 5 projects for which India h
 The result was also surprising for India because there was only one project for which India borrowed a huge amount, namely Social Safety Nets. The Social Safety Net Project has paid IDA with an appropriate amount. Hence a deeper analysis is also required here.
 
 ## Bangladesh’s Top 5 Projects with the Highest Loan Amount:
-After analyzing the top 5 projects of India I moved on Bangladesh. I wrote a code snippet for the top 5 projects for which Bangladesh borrowed a huge amount. The code snippet showed me the following result.
+After analyzing the India's top 5 projects I moved on Bangladesh. I wrote a code snippet for the top 5 projects for which Bangladesh borrowed a huge amount. The code snippet showed me the following result.
 ![pic-08](./Pics/pic-08.png)
-The top five projects in Bangladesh that required a significant amount of borrowing are Primary Education Development Program III, which cost $65.3 billion; Siddhirganj Power Project, which cost $63.3 billion; Health Sector Development Program, which cost $56.8 billion; Rural Electricity Transmission and Distribution, which cost $ 55 billion; and Rural Elect. Renewable Energy Dev, which cost $50.8 billion.
-
-## Top 5 Projects of Bangladesh with Loan Repaid to IDA:
+The top five projects in Bangladesh that required a significant amount of borrowing are  Siddhirganj Power Project, which cost $ 53.1 billion; Primary Education Development Program III which cost $ 50.4 billion; 
+Rural Elect. Renewable Energy which cost $ 45.7 billion; Health Sector Development Program, which cost $ 43.3 billion; and Development Support Credit, which cost $ 41.1 billion.
 Similarly, after checking the top 5 projects I checked the top 5 projects for which Bangladesh has been paid back to IDA. I wrote the code snippet that showed me the following result.
 ![pic-09](./Pics/pic-09.png)
 The results of Bangladesh were similar to those of India and Pakistan. Among the top 5 projects, Bangladesh has also paid IDA against one project i.e. Social Safety Nets.
@@ -106,9 +105,9 @@ The results of Bangladesh were similar to those of India and Pakistan. Among the
 I analyzed the percentage of loan repayments to the International Development Association (IDA) for Pakistan, India, and Bangladesh by writing specific code snippets for each country.
 ![pic-10](./Pics/pic-10.png)
 The calculated percentages are as follows:
-Pakistan: 21.98%
-India: 44.91%
-Bangladesh: 23.39%
+Pakistan: 20.85%
+India: 41.83%
+Bangladesh: 23.07%
 Based on these findings, we hypothesize that Pakistan's lower repayment rate to the IDA could be attributed to several factors, i.e. **(a) Pakistan may be experiencing slower economic growth, higher inflation, or other macroeconomic challenges that impact its ability to make repayments**. **(b) Government budget priorities and fiscal policies might prioritize other expenditures over international loan repayments**. **(3) Political instability or frequent changes in government could affect the consistency and effectiveness of financial policies related to debt repayment**. Understanding these underlying conditions is crucial for developing strategies to improve Pakistan's loan repayment performance to the IDA.
 
 ### General Notes: 
