@@ -149,7 +149,6 @@ Please find the Jupyter Notebook file, Data dictionary file and PowerBI Dashboar
 For the dashboard, you can also find it on my Tableau Public profile.
 I would greatly appreciate your feedback and any suggestions you may have regarding this portfolio project work. Your input is valuable to me in further improving the analysis. Please feel free to share your thoughts by emailing me at aftabajk@gmail.com 
 
- #exploratory_data_analysis  #world_bank_credits_and_loan_data_analysis #ida_loan_data 
 
 
 
